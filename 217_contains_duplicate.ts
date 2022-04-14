@@ -21,7 +21,7 @@ const bubbleSort = function (array: number[]) {
 let itemOne = 0;
 let itemTwo = 1;
 let duplicateValidator = false;
-let nums = [1, 2, 3, 4, 4];
+let nums = [1, 1, 1, 3, 3, 4, 3, 2, 4, 2];
 let sortedNums = bubbleSort(nums);
 
 const containsDuplicate = function (array: string | any[]) {
@@ -40,5 +40,8 @@ const containsDuplicate = function (array: string | any[]) {
     console.log('false');
   }
 };
+
+// var numsSet = new Set(nums);
+//     return (nums.length !== numsSet.size);
 
 containsDuplicate(sortedNums);
