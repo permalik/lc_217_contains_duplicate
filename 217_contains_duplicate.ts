@@ -41,6 +41,7 @@ const containsDuplicate = function (array: string | any[]) {
   }
 };
 
+// ALTERNATE SOLUTION:
 // var numsSet = new Set(nums);
 //     return (nums.length !== numsSet.size);
 
